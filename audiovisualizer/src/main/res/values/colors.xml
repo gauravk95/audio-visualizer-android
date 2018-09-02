@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="av_red">#f44336</color>
+    <color name="av_yellow">#FFEB3B</color>
+    <color name="av_green">#4CAF50</color>
+    <color name="av_light_blue">#00BCD4</color>
+    <color name="av_dark_blue">#2196F3</color>
+    <color name="av_orange">#FF9800</color>
+    <color name="av_deep_orange">#FF5722</color>
+</resources>

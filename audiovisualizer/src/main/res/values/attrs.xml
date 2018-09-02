@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseVisualizer">
+        <attr name="avDensity" format="float"/>
+        <attr name="avColor" format="color"/>
+        <attr name="avType" format="string"/>
+        <attr name="avGravity" format="string"/>
+        <attr name="avWidth" format="dimension"/>
+        <attr name="avSpeed" format="string"/>
+    </declare-styleable>
+</resources>
