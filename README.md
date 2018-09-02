@@ -53,7 +53,7 @@ A light-weight and easy-to-use Audio Visualizer for Android using the Android Ca
         //pass the bytes to visualizer
         mVisualizer.setRawAudioBytes(bytes);
 ```
-**Now**, release the visualizer in your on destroy or stop
+**Now**, release the visualizer in your `onDestroy() or onStop()`
 ```java
     @Override
     protected void onDestroy() {
@@ -61,6 +61,12 @@ A light-weight and easy-to-use Audio Visualizer for Android using the Android Ca
         if (mVisualizer != null)
             mVisualizer.release();
     }
+```
+If you want to hide the view upon completion of the audio, use
+```java
+            //TODO: check for completion of audio eg. using MediaPlayer.OnCompletionListener()
+            if (mVisualizer != null)
+                mVisualizer.hide();
 ```
 
 ### Similarly, include other visualizer
