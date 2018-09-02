@@ -17,6 +17,11 @@ A light-weight and easy-to-use Audio Visualizer for Android using the Android Ca
 * **BarVisualizer** - Gives the contemporary bar effect, good for all kinds of audio
 
 ## Usage
+
+**Note:** Use of the visualizer requires the permission `android.permission.RECORD_AUDIO` so add it to your manifest file. Also for Android 6.0 and above you will need request permission in runtime.
+
+Check out the Sample app to see how its implemented.
+
 * Include the library
 * Add the `com.gauravk.musicvisualizer.visualizer.BlastVisualizer` to your XML Layout file:
 ```xml
