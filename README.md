@@ -1,2 +1,2 @@
-# audio-visualizer-android
+# Audio Visualizer for Android
 An Audio Visualizer for Android
