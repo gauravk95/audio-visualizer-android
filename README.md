@@ -86,7 +86,7 @@ If you want to hide the view upon completion of the audio, use
 | avDensity     | Sets the density of the visualization between `(0,1)` | 
 | avSpeed     | Defines the speed of the animation - **slow**, **medium** and **fast** | 
 | avGravity     | Updates position of the visualizers - **top** and **bottom** (N/A for Blob and Blast Visualizers) | 
-| avWidth     | Describes the width of the line if `avType is outine`, in case of Bar Visualizer, defines width of the bar  | 
+| avWidth     | Describes the width of the line if `avType is outline`, in case of Bar Visualizer, defines width of the bar  | 
 
 ## License:
 ```
