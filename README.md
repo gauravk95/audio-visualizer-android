@@ -1,5 +1,5 @@
 # Audio Visualizer
-[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![Download](https://api.bintray.com/packages/gauravk95/audio-visualizer/audio-visualizer/images/download.svg) ](https://bintray.com/gauravk95/audio-visualizer/audio-visualizer/_latestVersion)
 
 A light-weight and easy-to-use Audio Visualizer for Android using the Android Canvas. 
 
@@ -22,9 +22,14 @@ A light-weight and easy-to-use Audio Visualizer for Android using the Android Ca
 
 **Note:** Use of the visualizer requires the permission `android.permission.RECORD_AUDIO` so add it to your manifest file. Also for Android 6.0 and above you will need request permission in runtime.
 
-Check out the Sample app to see how its implemented.
+Check out the Sample app, to see how its implemented.
 
-* Include the library
+* This library is available on JCenter. To use it, add the following to `build.gradle`
+```gradle
+dependencies {
+    compile 'com.gauravk:audio-visualizer:0.9.0'
+}
+```
 * Add the `com.gauravk.musicvisualizer.visualizer.BlastVisualizer` to your XML Layout file:
 ```xml
 <com.gauravk.musicvisualizer.visualizer.BlastVisualizer
