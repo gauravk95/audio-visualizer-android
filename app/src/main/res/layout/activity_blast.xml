@@ -5,11 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".ui.BlastActivity">
         <com.gauravk.musicvisualizer.visualizer.BlastVisualizer
-            android:id="@+id/blast"
             xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/blast"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             custom:avDensity="0.8"
             custom:avType="fill"
-            custom:avColor="@color/av_dark_blue"/>
+            custom:avColor="@color/av_dark_blue"
+            custom:avSpeed="normal"/>
 </android.support.constraint.ConstraintLayout>
