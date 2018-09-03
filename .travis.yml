@@ -7,11 +7,10 @@ before_install:
 android:
   components:
     - tools
-    - build-tools-26.0.2
-    - android-26
+    - platform-tools
+    - build-tools-27.0.2
+    - android-27
     - extra-android-m2repository
 
   licenses:
-    - 'android-sdk-preview-license-52d11cd2'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
+    - android-sdk-license-.+
