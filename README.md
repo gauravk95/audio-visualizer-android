@@ -1,5 +1,5 @@
 # Audio Visualizer
-[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![Download](https://api.bintray.com/packages/gauravk95/maven-repo/audio-visualizer/images/download.svg?version=0.9.0) ](https://bintray.com/gauravk95/maven-repo/audio-visualizer/0.9.0/link)
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![Download](https://api.bintray.com/packages/gauravk95/maven-repo/audio-visualizer/images/download.svg) ](https://bintray.com/gauravk95/maven-repo/audio-visualizer/_latestVersion)
 
 A light-weight and easy-to-use Audio Visualizer for Android using the Android Canvas. 
 
