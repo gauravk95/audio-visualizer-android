@@ -13,7 +13,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.musicvisualizer.base;
+package com.gauravk.audiovisualizer.base;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -23,11 +23,11 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.gauravk.musicvisualizer.R;
-import com.gauravk.musicvisualizer.utils.AVConstants;
-import com.gauravk.musicvisualizer.model.AnimSpeed;
-import com.gauravk.musicvisualizer.model.PaintStyle;
-import com.gauravk.musicvisualizer.model.PositionGravity;
+import com.gauravk.audiovisualizer.R;
+import com.gauravk.audiovisualizer.utils.AVConstants;
+import com.gauravk.audiovisualizer.model.AnimSpeed;
+import com.gauravk.audiovisualizer.model.PaintStyle;
+import com.gauravk.audiovisualizer.model.PositionGravity;
 
 /**
  * Base class for the visualizers

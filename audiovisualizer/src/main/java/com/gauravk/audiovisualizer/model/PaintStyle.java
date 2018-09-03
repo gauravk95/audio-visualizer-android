@@ -13,13 +13,9 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.musicvisualizer.utils;
+package com.gauravk.audiovisualizer.model;
 
-import android.graphics.Color;
-
-public class AVConstants {
-    public static final float DEFAULT_DENSITY = 0.25f;
-    public static final int DEFAULT_COLOR = Color.BLACK;
-    public static final float DEFAULT_STROKE_WIDTH = 6.0f;
-    public static final int MAX_ANIM_BATCH_COUNT = 4;
+public enum PaintStyle {
+    OUTLINE,
+    FILL
 }

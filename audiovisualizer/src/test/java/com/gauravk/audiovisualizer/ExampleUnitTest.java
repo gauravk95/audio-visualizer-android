@@ -1,4 +1,4 @@
-package com.gauravk.musicvisualizer;
+package com.gauravk.audiovisualizer;
 
 import org.junit.Test;
 

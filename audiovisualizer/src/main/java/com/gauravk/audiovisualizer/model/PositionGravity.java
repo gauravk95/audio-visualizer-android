@@ -13,9 +13,9 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.musicvisualizer.model;
+package com.gauravk.audiovisualizer.model;
 
-public enum PaintStyle {
-    OUTLINE,
-    FILL
+public enum PositionGravity {
+    TOP,
+    BOTTOM
 }

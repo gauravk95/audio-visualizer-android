@@ -19,7 +19,7 @@
         <activity android:name=".ui.BlobActivity" />
         <activity android:name=".ui.BlastActivity" />
         <activity android:name=".ui.WaveActivity" />
-        <activity android:name=".ui.BarActivity"></activity>
+        <activity android:name=".ui.BarActivity"/>
     </application>
 
 </manifest>

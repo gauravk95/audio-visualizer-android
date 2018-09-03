@@ -13,7 +13,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.musicvisualizer.visualizer;
+package com.gauravk.audiovisualizer.visualizer;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -22,10 +22,10 @@ import android.graphics.PointF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
-import com.gauravk.musicvisualizer.base.BaseVisualizer;
-import com.gauravk.musicvisualizer.model.AnimSpeed;
-import com.gauravk.musicvisualizer.model.PaintStyle;
-import com.gauravk.musicvisualizer.utils.BezierSpline;
+import com.gauravk.audiovisualizer.base.BaseVisualizer;
+import com.gauravk.audiovisualizer.model.AnimSpeed;
+import com.gauravk.audiovisualizer.model.PaintStyle;
+import com.gauravk.audiovisualizer.utils.BezierSpline;
 
 /**
  * Custom view to create blob visualizer

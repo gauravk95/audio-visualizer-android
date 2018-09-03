@@ -20,7 +20,7 @@ import android.os.Bundle;
 
 import com.gauravk.audiovisualizersample.R;
 import com.gauravk.audiovisualizersample.utils.AudioPlayer;
-import com.gauravk.musicvisualizer.visualizer.BlastVisualizer;
+import com.gauravk.audiovisualizer.visualizer.BlastVisualizer;
 
 public class BlastActivity extends AppCompatActivity {
 

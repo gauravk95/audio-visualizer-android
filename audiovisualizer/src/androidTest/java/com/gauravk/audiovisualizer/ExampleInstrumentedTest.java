@@ -1,4 +1,4 @@
-package com.gauravk.musicvisualizer;
+package com.gauravk.audiovisualizer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

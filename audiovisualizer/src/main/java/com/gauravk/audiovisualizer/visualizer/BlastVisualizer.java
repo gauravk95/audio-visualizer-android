@@ -13,7 +13,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.musicvisualizer.visualizer;
+package com.gauravk.audiovisualizer.visualizer;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -21,7 +21,7 @@ import android.graphics.Path;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
-import com.gauravk.musicvisualizer.base.BaseVisualizer;
+import com.gauravk.audiovisualizer.base.BaseVisualizer;
 
 /**
  * Custom view to create blast visualizer

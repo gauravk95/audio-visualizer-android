@@ -13,7 +13,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.musicvisualizer.utils;
+package com.gauravk.audiovisualizer.utils;
 
 import android.graphics.PointF;
 

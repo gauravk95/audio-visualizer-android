@@ -20,7 +20,7 @@ import android.os.Bundle;
 
 import com.gauravk.audiovisualizersample.R;
 import com.gauravk.audiovisualizersample.utils.AudioPlayer;
-import com.gauravk.musicvisualizer.visualizer.BarVisualizer;
+import com.gauravk.audiovisualizer.visualizer.BarVisualizer;
 
 public class BarActivity extends AppCompatActivity {
 
