@@ -1,2 +1,0 @@
-## A dummy local properties for Continuous integration System to pass build
-sdk.dir=$ANDROID_HOME
