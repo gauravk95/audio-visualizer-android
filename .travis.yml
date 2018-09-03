@@ -5,16 +5,26 @@ before_install:
     - echo yes | android update sdk --filter extra-android-m2repository --no-ui --force > /dev/null
     - chmod +x ./gradlew
     - cp local.properties.ci local.properties
+
 android:
   components:
     - tools
     - platform-tools
     - build-tools-27.0.3
     - android-27
+    - android-22
+    - sys-img-armeabi-v7a-android-22
     - extra-android-m2repository
 
   licenses:
     - android-sdk-license-.+
 
-  script:
-    - ./gradlew test
+before_script:
+  # Create and start emulator
+  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
+  - emulator -avd test -no-skin -no-audio -no-window &
+  - android-wait-for-emulator
+  - adb shell input keyevent 82 &
+
+script:
+    - ./gradlew connectedAndroidTest
