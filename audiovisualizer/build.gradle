@@ -38,10 +38,10 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'audio-visualizer'
+    bintrayRepo = 'maven-repo'
     bintrayName = 'audio-visualizer'
 
-    publishedGroupId = 'com.gauravk'
+    publishedGroupId = 'com.github.gauravk'
     libraryName = 'audio-visualizer'
     artifact = 'audio-visuallizer'
 
