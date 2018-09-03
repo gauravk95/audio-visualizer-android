@@ -27,12 +27,12 @@ Check out the Sample app, to see how its implemented.
 * This library is available on JCenter. To use it, add the following to `build.gradle`
 ```gradle
 dependencies {
-    compile 'com.github.gauravk95:audio-visualizer:0.9.0'
+    implementation 'com.gauravk.audiovisualizer:audio-visualizer:0.9.1'
 }
 ```
-* Add the `com.gauravk.musicvisualizer.visualizer.BlastVisualizer` to your XML Layout file:
+* Add the `com.gauravk.audiovisualizer.visualizer.BlastVisualizer` to your XML Layout file:
 ```xml
-<com.gauravk.musicvisualizer.visualizer.BlastVisualizer
+<com.gauravk.audiovisualizer.visualizer.BlastVisualizer
             xmlns:custom="http://schemas.android.com/apk/res-auto"
             android:id="@+id/blast"
             android:layout_width="match_parent"
