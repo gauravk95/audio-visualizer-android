@@ -3,7 +3,7 @@ language: android
 before_install:
     - echo yes | android update sdk --filter extra-android-support --no-ui --force > /dev/null
     - echo yes | android update sdk --filter extra-android-m2repository --no-ui --force > /dev/null
-
+    - chmod +x ./gradlew
 android:
   components:
     - tools
@@ -13,6 +13,3 @@ android:
 
   licenses:
     - android-sdk-license-.+
-
-script:
-  - chmod +x ./gradlew clean checkstyle build
