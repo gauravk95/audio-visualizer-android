@@ -12,6 +12,10 @@ android:
     - build-tools-27.0.3
     - android-27
     - extra-android-m2repository
+    - sys-img-armeabi-v7a-android-26
 
   licenses:
     - android-sdk-license-.+
+
+  script:
+    ./gradlew clean build
