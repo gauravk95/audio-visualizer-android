@@ -15,4 +15,4 @@ android:
     - android-sdk-license-.+
 
 script:
-  ./gradlew clean checkstyle build
+  - chmod +x ./gradlew clean checkstyle build
