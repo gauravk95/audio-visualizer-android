@@ -1,5 +1,5 @@
 # Audio Visualizer
-[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![Download](https://api.bintray.com/packages/gauravk95/audio-visualizer/audio-visualizer/images/download.svg) ](https://bintray.com/gauravk95/audio-visualizer/audio-visualizer/_latestVersion)
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![Download](https://api.bintray.com/packages/gauravk95/maven-repo/audio-visualizer/images/download.svg?version=0.9.0) ](https://bintray.com/gauravk95/maven-repo/audio-visualizer/0.9.0/link)
 
 A light-weight and easy-to-use Audio Visualizer for Android using the Android Canvas. 
 
@@ -27,7 +27,7 @@ Check out the Sample app, to see how its implemented.
 * This library is available on JCenter. To use it, add the following to `build.gradle`
 ```gradle
 dependencies {
-    compile 'com.gauravk:audio-visualizer:0.9.0'
+    compile 'com.github.gauravk95:audio-visualizer:0.9.0'
 }
 ```
 * Add the `com.gauravk.musicvisualizer.visualizer.BlastVisualizer` to your XML Layout file:
