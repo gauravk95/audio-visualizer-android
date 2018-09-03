@@ -23,7 +23,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
     }
 }
@@ -41,9 +41,9 @@ ext {
     bintrayRepo = 'maven-repo'
     bintrayName = 'audio-visualizer'
 
-    publishedGroupId = 'com.github.gauravk'
+    publishedGroupId = 'com.github.gauravk95'
     libraryName = 'audio-visualizer'
-    artifact = 'audio-visuallizer'
+    artifact = 'audio-visualizer'
 
     libraryDescription = 'A light-weight and easy-to-use Audio Visualizer for Android.'
 
