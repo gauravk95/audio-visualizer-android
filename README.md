@@ -1,5 +1,5 @@
 # Audio Visualizer
-[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![Download](https://api.bintray.com/packages/gauravk95/maven-repo/audio-visualizer/images/download.svg) ](https://bintray.com/gauravk95/maven-repo/audio-visualizer/_latestVersion) [![Build Status](https://travis-ci.org/gauravk95/audio-visualizer-android.svg?branch=master)](https://travis-ci.org/gauravk95/audio-visualizer-android)
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![Download](https://api.bintray.com/packages/gauravk95/maven-repo/audiovisualizer/images/download.svg) ](https://bintray.com/gauravk95/maven-repo/audiovisualizer/_latestVersion) [![Build Status](https://travis-ci.org/gauravk95/audio-visualizer-android.svg?branch=master)](https://travis-ci.org/gauravk95/audio-visualizer-android)
 
 A light-weight and easy-to-use Audio Visualizer for Android using the Android Canvas. 
 
@@ -27,7 +27,7 @@ Check out the Sample app, to see how its implemented.
 * This library is available on JCenter. To use it, add the following to `build.gradle`
 ```gradle
 dependencies {
-    implementation 'com.gauravk.audiovisualizer:audio-visualizer:0.9.1'
+    implementation 'com.gauravk.audiovisualizer:audiovisualizer:0.9.1'
 }
 ```
 * Add the `com.gauravk.audiovisualizer.visualizer.BlastVisualizer` to your XML Layout file:
