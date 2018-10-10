@@ -84,7 +84,7 @@ If you want to hide the view upon completion of the audio, use
 ### Similarly, include other visualizer
 
 ## Attributes
-| **attr**      | **Description**         |
+| **attr**      | **Description**  |
 | ------------- | ------------- | 
 | avType     | Changes the Visualization type - **outline** or **fill**. (N/A for Bar Visualizer) | 
 | avColor     | Defines the color that is used in the visualizer | 
@@ -92,6 +92,12 @@ If you want to hide the view upon completion of the audio, use
 | avSpeed     | Defines the speed of the animation - **slow**, **medium** and **fast** | 
 | avGravity     | Updates position of the visualizers - **top** and **bottom** (N/A for Blob and Blast Visualizers) | 
 | avWidth     | Describes the width of the line if `avType is outline`, in case of Bar Visualizer, defines width of the bar  | 
+
+## Contribute
+
+Found a bug or have an idea/feature request or any other help needed. Please suggest or report them [here](https://github.com/gauravk95/audio-visualizer-android/issues)
+
+I am always open to new suggestions and good contributions.
 
 ## License:
 ```
