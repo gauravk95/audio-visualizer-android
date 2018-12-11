@@ -34,9 +34,23 @@ public class BlastActivity extends AppCompatActivity {
         setContentView(R.layout.activity_blast);
 
         mVisualizer = findViewById(R.id.blast);
-
         mAudioPlayer = new AudioPlayer();
-        mAudioPlayer.play(this, R.raw.sample, new AudioPlayer.AudioPlayerEvent() {
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        startPlayingAudio(R.raw.sample);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        stopPlayingAudio();
+    }
+
+    private void startPlayingAudio(int resId) {
+        mAudioPlayer.play(this, resId, new AudioPlayer.AudioPlayerEvent() {
             @Override
             public void onCompleted() {
                 if (mVisualizer != null)
@@ -48,12 +62,11 @@ public class BlastActivity extends AppCompatActivity {
             mVisualizer.setAudioSessionId(audioSessionId);
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
+    private void stopPlayingAudio() {
         if (mAudioPlayer != null)
             mAudioPlayer.stop();
         if (mVisualizer != null)
             mVisualizer.release();
     }
+
 }
