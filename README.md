@@ -1,5 +1,5 @@
 # Audio Visualizer
-[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![Download](https://api.bintray.com/packages/gauravk95/maven-repo/audiovisualizer/images/download.svg) ](https://bintray.com/gauravk95/maven-repo/audiovisualizer/_latestVersion) [![Build Status](https://travis-ci.org/gauravk95/audio-visualizer-android.svg?branch=master)](https://travis-ci.org/gauravk95/audio-visualizer-android)
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)  [![Download](https://api.bintray.com/packages/gauravk95/maven-repo/audiovisualizer/images/download.svg) ](https://bintray.com/gauravk95/maven-repo/audiovisualizer/_latestVersion) [![Build Status](https://travis-ci.org/gauravk95/audio-visualizer-android.svg?branch=master)](https://travis-ci.org/gauravk95/audio-visualizer-android) [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Gaurav%20Kumar-green.svg?style=flat )]( https://android-arsenal.com/details/1/7204 )
 
 A light-weight and easy-to-use Audio Visualizer for Android using the Android Canvas. 
 
@@ -84,7 +84,7 @@ If you want to hide the view upon completion of the audio, use
 ### Similarly, include other visualizer
 
 ## Attributes
-| **attr**      | **Description**         |
+| **attr**      | **Description**  |
 | ------------- | ------------- | 
 | avType     | Changes the Visualization type - **outline** or **fill**. (N/A for Bar Visualizer) | 
 | avColor     | Defines the color that is used in the visualizer | 
@@ -92,6 +92,12 @@ If you want to hide the view upon completion of the audio, use
 | avSpeed     | Defines the speed of the animation - **slow**, **medium** and **fast** | 
 | avGravity     | Updates position of the visualizers - **top** and **bottom** (N/A for Blob and Blast Visualizers) | 
 | avWidth     | Describes the width of the line if `avType is outline`, in case of Bar Visualizer, defines width of the bar  | 
+
+## Contribute
+
+Found a bug or have an idea/feature request or any other help needed. Please suggest or report them [here](https://github.com/gauravk95/audio-visualizer-android/issues)
+
+I am always open to new suggestions and good contributions.
 
 ## License:
 ```
