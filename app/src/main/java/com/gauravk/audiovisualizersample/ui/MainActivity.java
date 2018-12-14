@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.v_blast_btn).setOnClickListener(this);
         findViewById(R.id.v_wave_btn).setOnClickListener(this);
         findViewById(R.id.v_bar_btn).setOnClickListener(this);
+        findViewById(R.id.v_stream_btn).setOnClickListener(this);
     }
 
     @Override
@@ -50,13 +51,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     requestAudioPermission();
                 break;
             case R.id.v_blast_btn:
-                launchBlastActivity();
+                if (checkAudioPermission())
+                    launchBlastActivity();
+                else
+                    requestAudioPermission();
                 break;
             case R.id.v_wave_btn:
-                launchWaveActivity();
+                if (checkAudioPermission())
+                    launchWaveActivity();
+                else
+                    requestAudioPermission();
                 break;
             case R.id.v_bar_btn:
-                launchSpikyWaveActivity();
+                if (checkAudioPermission())
+                    launchSpikyWaveActivity();
+                else
+                    requestAudioPermission();
+                break;
+            case R.id.v_stream_btn:
+                if (checkAudioPermission())
+                    launchMusicStreamActivity();
+                else
+                    requestAudioPermission();
                 break;
         }
     }
@@ -88,4 +104,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(MainActivity.this, BarActivity.class);
         startActivity(intent);
     }
+
+    private void launchMusicStreamActivity() {
+        Intent intent = new Intent(MainActivity.this, MusicStreamActivity.class);
+        startActivity(intent);
+    }
+
 }
