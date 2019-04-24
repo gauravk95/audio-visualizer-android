@@ -23,8 +23,9 @@
         <activity android:name=".ui.BlobActivity" />
         <activity android:name=".ui.BlastActivity" />
         <activity android:name=".ui.WaveActivity" />
-        <activity android:name=".ui.BarActivity"/>
+        <activity android:name=".ui.BarActivity" />
         <activity android:name=".ui.MusicStreamActivity" />
+        <activity android:name=".ui.CircleLineActivity"/>
     </application>
 
 </manifest>
