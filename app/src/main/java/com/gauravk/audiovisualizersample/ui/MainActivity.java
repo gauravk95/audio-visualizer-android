@@ -24,6 +24,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.gauravk.audiovisualizer.visualizer.CircleLineVisualizer;
+import com.gauravk.audiovisualizer.visualizer.HiFiVisualizer;
 import com.gauravk.audiovisualizersample.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.v_bar_btn).setOnClickListener(this);
         findViewById(R.id.v_stream_btn).setOnClickListener(this);
         findViewById(R.id.v_circleline_btn).setOnClickListener(this);
+        findViewById(R.id.v_hifi_btn).setOnClickListener(this);
     }
 
     @Override
@@ -79,6 +81,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.v_circleline_btn:
                 if (checkAudioPermission()){
                     launchCircleLinectivity();
+                }
+
+                else
+                    requestAudioPermission();
+                break;
+            case R.id.v_hifi_btn:
+                if (checkAudioPermission()){
+                    Intent intent = new Intent(MainActivity.this, HiFiActivity.class);
+                    startActivity(intent);
                 }
 
                 else
