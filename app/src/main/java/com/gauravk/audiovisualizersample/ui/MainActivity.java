@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 else
                     requestAudioPermission();
                 break;
-            case R.id.v_circleline_btn:
+            case R.id.v_circle_line_btn:
                 if (checkAudioPermission()){
                     launchCircleLinectivity();
                 }
