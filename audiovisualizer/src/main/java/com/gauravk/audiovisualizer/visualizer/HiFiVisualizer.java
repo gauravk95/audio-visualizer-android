@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 
 import com.gauravk.audiovisualizer.base.BaseVisualizer;
+import com.gauravk.audiovisualizer.model.PaintStyle;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -59,6 +60,16 @@ public class HiFiVisualizer extends BaseVisualizer {
         mHeights = new int[mPoints];
     }
 
+    /**
+     *  you cannot change the style of paint;
+     *  the paintStyle fixed at Paint.Style.STROKE:
+     * @param paintStyle style of the visualizer.
+     */
+    @Override
+    @Deprecated()
+    public void setPaintStyle(PaintStyle paintStyle) {
+
+    }
 
     @Override
     protected void onDraw(Canvas canvas) {

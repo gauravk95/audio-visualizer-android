@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.v_wave_btn).setOnClickListener(this);
         findViewById(R.id.v_bar_btn).setOnClickListener(this);
         findViewById(R.id.v_stream_btn).setOnClickListener(this);
-        findViewById(R.id.v_circleline_btn).setOnClickListener(this);
+        findViewById(R.id.v_circle_line_btn).setOnClickListener(this);
         findViewById(R.id.v_hifi_btn).setOnClickListener(this);
     }
 
