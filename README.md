@@ -109,7 +109,7 @@ Found a bug or have an idea/feature request or any other help needed. Please sug
 
 I am always open to new suggestions and good contributions.
 
-Thanks to @wangfengye for **CircleLineVisualizer** and **HifiVisualizer**. 
+Thanks to [@wangfengye](https://github.com/wangfengye) for **CircleLineVisualizer** and **HifiVisualizer**. 
 
 ## License:
 ```
