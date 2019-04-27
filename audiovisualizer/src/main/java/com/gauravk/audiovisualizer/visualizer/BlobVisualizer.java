@@ -171,7 +171,7 @@ public class BlobVisualizer extends BaseVisualizer {
             }
             //set the first and last point as first
             mBezierPoints[nPoints].set(mBezierPoints[0].x, mBezierPoints[0].y);
-            mBezierPoints[nPoints + 1].set(mBezierPoints[1].x, mBezierPoints[1].y);
+            mBezierPoints[nPoints + 1].set(mBezierPoints[0].x, mBezierPoints[0].y);
 
             //update the control points
             mBezierSpline.updateCurveControlPoints(mBezierPoints);

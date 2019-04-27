@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.WaveActivity">
+    tools:context=".ui.CircleLineActivity">
 
-    <com.gauravk.audiovisualizer.visualizer.WaveVisualizer xmlns:custom="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/wave"
+    <com.gauravk.audiovisualizer.visualizer.CircleLineVisualizer xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/blob"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        custom:avColor="@color/av_light_blue"
-        custom:avDensity="0.175"
-        custom:avSpeed="normal"
+        custom:avColor="@color/av_deep_orange"
+        custom:avDensity="0.5"
+        custom:avSpeed="medium"
         custom:avType="fill" />
 </android.support.constraint.ConstraintLayout>

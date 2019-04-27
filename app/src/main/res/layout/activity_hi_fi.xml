@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.WaveActivity">
+    tools:context=".ui.HiFiActivity">
 
-    <com.gauravk.audiovisualizer.visualizer.WaveVisualizer xmlns:custom="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/wave"
+    <com.gauravk.audiovisualizer.visualizer.HiFiVisualizer
+        android:id="@+id/hifi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        custom:avColor="@color/av_light_blue"
-        custom:avDensity="0.175"
-        custom:avSpeed="normal"
-        custom:avType="fill" />
+        app:avColor="@color/av_deep_orange"
+        app:avSpeed="medium" />
 </android.support.constraint.ConstraintLayout>

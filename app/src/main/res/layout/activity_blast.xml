@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.BlastActivity">
-        <com.gauravk.audiovisualizer.visualizer.BlastVisualizer
-            xmlns:custom="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/blast"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            custom:avDensity="0.8"
-            custom:avType="fill"
-            custom:avColor="@color/av_dark_blue"
-            custom:avSpeed="normal"/>
+
+    <com.gauravk.audiovisualizer.visualizer.BlastVisualizer xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/blast"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:avColor="@color/av_dark_blue"
+        custom:avDensity="0.8"
+        custom:avSpeed="normal"
+        custom:avType="fill" />
 </android.support.constraint.ConstraintLayout>
