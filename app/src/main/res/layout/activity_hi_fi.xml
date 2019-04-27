@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context=".ui.HiFiActivity">
-<com.gauravk.audiovisualizer.visualizer.HiFiVisualizer
-    android:id="@+id/hifi"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    app:avSpeed="medium"
-    app:avColor="@color/av_deep_orange"/>
+
+    <com.gauravk.audiovisualizer.visualizer.HiFiVisualizer
+        android:id="@+id/hifi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:avColor="@color/av_deep_orange"
+        app:avSpeed="medium" />
 </android.support.constraint.ConstraintLayout>

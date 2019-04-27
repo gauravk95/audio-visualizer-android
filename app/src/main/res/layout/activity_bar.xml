@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.BarActivity">
-    <com.gauravk.audiovisualizer.visualizer.BarVisualizer
+
+    <com.gauravk.audiovisualizer.visualizer.BarVisualizer xmlns:custom="http://schemas.android.com/apk/res-auto"
         android:id="@+id/bar"
-        xmlns:custom="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        custom:avColor="@color/av_red"
         custom:avDensity="0.5"
-        custom:avType="outline"
         custom:avSpeed="normal"
-        custom:avWidth="4dp"
-        custom:avColor="@color/av_red" />
+        custom:avType="outline"
+        custom:avWidth="4dp" />
 </android.support.constraint.ConstraintLayout>

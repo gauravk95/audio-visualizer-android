@@ -61,8 +61,9 @@ public class HiFiVisualizer extends BaseVisualizer {
     }
 
     /**
-     *  you cannot change the style of paint;
-     *  the paintStyle fixed at Paint.Style.STROKE:
+     * you cannot change the style of paint;
+     * the paintStyle fixed at Paint.Style.STROKE:
+     *
      * @param paintStyle style of the visualizer.
      */
     @Override

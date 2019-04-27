@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.CircleLineActivity">
-    <com.gauravk.audiovisualizer.visualizer.CircleLineVisualizer
+
+    <com.gauravk.audiovisualizer.visualizer.CircleLineVisualizer xmlns:custom="http://schemas.android.com/apk/res-auto"
         android:id="@+id/blob"
-        xmlns:custom="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        custom:avColor="@color/av_deep_orange"
         custom:avDensity="0.5"
-        custom:avType="fill"
         custom:avSpeed="medium"
-        custom:avColor="@color/av_deep_orange"/>
+        custom:avType="fill" />
 </android.support.constraint.ConstraintLayout>
