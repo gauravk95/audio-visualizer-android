@@ -16,11 +16,17 @@ A light-weight and easy-to-use Audio Visualizer for Android using the Android Ca
 | ------------- |:-------------:| 
 | ![Wave](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/wave_sample.gif) |![Bar](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/bar_sample.gif)|
 
+| CircleLine         | Hifi          |
+| ------------- |:-------------:| 
+| ![CircleLine](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/circle_line_sample.gif) |![Hifi](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/hifi_sample.gif)|
+
 ## Available Visualizers:
 * **BlobVisualizer** - Gives blob like effect, good for low bpm audio
 * **BlastVisualizer** - Gives a blast like effect, very random, good for high bpm audio
 * **WaveVisualizer** - Gives a nice wave like effect, good for all kinds of audio
 * **BarVisualizer** - Gives the contemporary bar effect, good for all kinds of audio
+* **CircleLineVisualizer** - Gives the circular bar like effect, good for all kinds of audio
+* **HifiVisualizer** - Gives a unique circular wave like effect, good for all kinds of audio
 
 ## Usage
 
@@ -31,7 +37,7 @@ Check out the Sample app, to see how its implemented.
 * This library is available on JCenter. To use it, add the following to `build.gradle`
 ```gradle
 dependencies {
-    implementation 'com.gauravk.audiovisualizer:audiovisualizer:0.9.1'
+    implementation 'com.gauravk.audiovisualizer:audiovisualizer:0.9.2'
 }
 ```
 * Add the `com.gauravk.audiovisualizer.visualizer.BlastVisualizer` to your XML Layout file:
@@ -102,6 +108,8 @@ If you want to hide the view upon completion of the audio, use
 Found a bug or have an idea/feature request or any other help needed. Please suggest or report them [here](https://github.com/gauravk95/audio-visualizer-android/issues)
 
 I am always open to new suggestions and good contributions.
+
+Thanks to @wangfengye for **CircleLineVisualizer** and **HifiVisualizer**. 
 
 ## License:
 ```
