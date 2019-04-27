@@ -30,7 +30,7 @@ public class HiFiVisualizer extends BaseVisualizer {
     private Path mPath;//outward path
     private Path mPath1;//inward path
     /**
-     * This is teh distance from center to bezier control point.
+     * This is the distance from center to bezier control point.
      * We can calculate the bezier control points of each segment this distance and its angle;
      */
     private int mBezierControlPointLen;
