@@ -2,23 +2,23 @@ language: android
 
 # setup before install
 before_install:
-    - echo yes | android update sdk --filter extra-android-support --no-ui --force > /dev/null
-    - echo yes | android update sdk --filter extra-android-m2repository --no-ui --force > /dev/null
-    - chmod +x ./gradlew
-    - cp local.properties.ci local.properties
+- echo yes | android update sdk --filter extra-android-support --no-ui --force > /dev/null
+- echo yes | android update sdk --filter extra-android-m2repository --no-ui --force > /dev/null
+- chmod +x ./gradlew
+- cp local.properties.ci local.properties
 
 # define android packages and licenses
 android:
   components:
-    - tools
-    - platform-tools
-    - build-tools-27.0.3
-    - android-27
-    - extra-android-m2repository
+  - tools
+  - platform-tools
+  - build-tools-28.0.3
+  - android-28
+  - extra-android-m2repository
 
   licenses:
-    - android-sdk-license-.+
+  - android-sdk-license-.+
 
 # only perform unit test only
 script:
-    - ./gradlew test
+- ./gradlew assembleDebug
