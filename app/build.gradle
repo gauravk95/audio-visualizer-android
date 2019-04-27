@@ -27,7 +27,6 @@ dependencies {
     implementation "com.android.support.constraint:constraint-layout:$constraintLayoutVersion"
 
     //test dependencies
-    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation "junit:junit:$jUnitVersion"
     androidTestImplementation "com.android.support.test:runner:$testRunnerVersion"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:$expressoVersion"

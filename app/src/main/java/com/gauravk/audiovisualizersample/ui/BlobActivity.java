@@ -41,7 +41,6 @@ public class BlobActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        mVisualizer.setPaintStyle(PaintStyle.OUTLINE);
         startPlayingAudio(R.raw.sample);
     }
 
