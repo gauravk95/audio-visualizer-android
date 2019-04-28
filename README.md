@@ -8,6 +8,11 @@
 A light-weight and easy-to-use Audio Visualizer for Android using the Android Canvas. 
 
 ## Demos
+
+| CircleLine         | Hifi          |
+| ------------- |:-------------:| 
+| ![CircleLine](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/circle_line_sample.gif) |![Hifi](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/hifi_sample.gif)|
+
 | Blob          | Blast           |
 | ------------- |:-------------:| 
 | ![Blob](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/blob_sample.gif) |![Blast](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/blast_sample.gif)|
@@ -15,10 +20,6 @@ A light-weight and easy-to-use Audio Visualizer for Android using the Android Ca
 | Wave          | Bar           |
 | ------------- |:-------------:| 
 | ![Wave](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/wave_sample.gif) |![Bar](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/bar_sample.gif)|
-
-| CircleLine         | Hifi          |
-| ------------- |:-------------:| 
-| ![CircleLine](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/circle_line_sample.gif) |![Hifi](https://raw.githubusercontent.com/gauravk95/audio-visualizer-android/master/samplegif/hifi_sample.gif)|
 
 ## Available Visualizers:
 * **BlobVisualizer** - Gives blob like effect, good for low bpm audio
