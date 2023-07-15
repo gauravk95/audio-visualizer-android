@@ -1,7 +1,7 @@
 # Audio Visualizer
 [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 [![Download](https://api.bintray.com/packages/gauravk95/maven-repo/audiovisualizer/images/download.svg) ](https://bintray.com/gauravk95/maven-repo/audiovisualizer/_latestVersion) 
-[![Build Status](https://travis-ci.org/gauravk95/audio-visualizer-android.svg?branch=master)](https://travis-ci.org/gauravk95/audio-visualizer-android) 
+[![Build Status](https://travis-ci.org/balaji34/audio-visualizer-android.svg?branch=master)](https://travis-ci.org/gauravk95/audio-visualizer-android) 
 [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Gaurav%20Kumar-green.svg?style=flat )]( https://android-arsenal.com/details/1/7204 )
 [![Android Weekly]( https://img.shields.io/badge/Android%20Weekly-%23352-blue.svg )]( http://androidweekly.net/issues/issue-352 )
 
@@ -38,10 +38,10 @@ Check out the Sample app, to see how its implemented.
 * This library is available on JCenter. To use it, add the following to `build.gradle`
 ```gradle
 dependencies {
-    implementation 'com.gauravk.audiovisualizer:audiovisualizer:0.9.2'
+    implementation 'com.balaji34.audiovisualizer:audiovisualizer:0.9.2'
 }
 ```
-* Add the `com.gauravk.audiovisualizer.visualizer.BlastVisualizer` to your XML Layout file:
+* Add the `com.balaji34.audiovisualizer.visualizer.BlastVisualizer` to your XML Layout file:
 ```xml
 <com.gauravk.audiovisualizer.visualizer.BlastVisualizer
             xmlns:custom="http://schemas.android.com/apk/res-auto"
@@ -106,7 +106,7 @@ If you want to hide the view upon completion of the audio, use
 
 ## Contribute
 
-Found a bug or have an idea/feature request or any other help needed. Please suggest or report them [here](https://github.com/gauravk95/audio-visualizer-android/issues)
+Found a bug or have an idea/feature request or any other help needed. Please suggest or report them [here](https://github.com/balaji34/audio-visualizer-android/issues)
 
 I am always open to new suggestions and good contributions.
 
@@ -114,7 +114,7 @@ Thanks to [@wangfengye](https://github.com/wangfengye) for **CircleLineVisualize
 
 ## License:
 ```
-    Copyright 2018 Gaurav Kumar
+    Copyright 2018 balaji34
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
